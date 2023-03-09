@@ -40,7 +40,7 @@ void PrintMatrix (int[,] array2D)
 int[,] matrix = GetMatrix(rows, cols, 0, 10);
 PrintMatrix(matrix);
 /// <summary>
-/// Метод, который сортирует строки в двумерной матрице по убыванию, через сортировку пузырьком
+/// Метод, который сортирует строки в двумерном массиве по убыванию, через сортировку пузырьком
 /// </summary>
 /// <param name="array2D">Двумерный массив целых чисел</param>
 void SortingMatrix(int[,] array2D)
