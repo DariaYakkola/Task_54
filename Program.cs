@@ -43,7 +43,7 @@ PrintMatrix(matrix);
 /// Метод, который сортирует строки в двумерном массиве по убыванию, через сортировку пузырьком
 /// </summary>
 /// <param name="array2D">Двумерный массив целых чисел</param>
-void SortingMatrix(int[,] array2D)
+void SortingRows(int[,] array2D)
 {
   for (int i = 0; i < rows; i++)
   {
@@ -61,6 +61,6 @@ void SortingMatrix(int[,] array2D)
     }
   }
 }
-SortingMatrix(matrix); 
+SortingRows(matrix); 
 Console.WriteLine();
 PrintMatrix(matrix);
